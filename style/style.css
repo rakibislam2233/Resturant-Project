@@ -1,0 +1,36 @@
+html{
+   scroll-behavior: smooth;
+}
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Itim', cursive;
+ }.btn{
+   border: 2px solid orange;
+   transition: 0.3s;
+ }.btn:hover{
+   background-color:transparent;
+   color: black;
+ }
+ .rakib{
+   transition:all ease-in-out 0.3s;
+ }
+ .rakib:hover{
+  transform: scale(1.1);
+ }
+.img{
+   background-image: url(../images/banner.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+.child{
+   opacity: 0;
+   background-color:#F59E0B;
+}
+.img,.parent{
+   transition:all ease-in-out 0.5s;
+}
+.parent:hover>.child{
+   opacity: 1;
+   transition:all ease-in-out 0.5s;
+}
